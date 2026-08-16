@@ -1,0 +1,14 @@
+.env
+.env.local
+.env.*.local
+!.env.example
+
+# Fichiers locaux / OS
+.DS_Store
+Thumbs.db
+*.log
+
+# Secrets accidentels
+*.pem
+*.key
+secrets/
